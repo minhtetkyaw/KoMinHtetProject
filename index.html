@@ -15,9 +15,9 @@
     <!-- Links -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-     <!-- --------- Owl-Carousel ------------------->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+     <!-- --------- Carousel ------------------->
+     <link rel="stylesheet" href="assets/slick/slick/slick.css">
+     <link rel="stylesheet" href="assets/slick/slick/slick-theme.css">
 
     <!-- ------------ AOS Library ------------------------- -->
     <link rel="stylesheet" href="css/aos.css">
@@ -72,7 +72,8 @@
         <section>
             <div class="home-slide" id="slide">
                 <div class="container">
-                    <div class="owl-carousel owl-theme slide-post">
+                  
+                    <div class="responsive slide-post">
                         <div class="slide-content" data-aos="fade-right" data-aos-delay="200">
                             <img src="img/payroll.jpg" alt="HR Payroll">
                             <div class="slide-title">
@@ -80,7 +81,7 @@
                                 <a href="module.html"><button class="btn btn-slide">Explore</button></a>
                             </div>
                         </div>
-                        <div class="slide-content" data-aos="fade-in" data-aos-delay="200">
+                        <div class="slide-content" data-aos="fade-in" data-aos-delay="200" >
                             <img src="img/inventory.jpg" alt="Inventory Management">
                             <div class="slide-title">
                                 <h3>Inventory Management</h3>
@@ -116,10 +117,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="owl-navigation">
-                        <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
-                        <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
-                    </div>
+                    
+                    
                 </div>
             </div>
         </section>
@@ -133,18 +132,18 @@
       <span class="text-muted">&#169; 2019-2022 <a href="index.html" target="blank">Min Htet Kyaw</a> All rights Reserved.</span>
     </div>
   </footer>
+
+  <!-- Jquery Library file -->
+  <script src="./js/Jquery3.4.1.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 
-    <!-- Jquery Library file -->
-    <script src="./js/Jquery3.4.1.min.js"></script>
-
-    <!-- --------- Owl-Carousel js ------------------->
-    <script src="./js/owl.carousel.min.js"></script>
-
+    <script src="assets/slick/slick/slick.min.js"></script>
     <!-- ------------ AOS js Library  ------------------------- -->
     <script src="./js/aos.js"></script>
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
+
 </html>
