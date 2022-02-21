@@ -18,7 +18,7 @@ main nav{
 /*---------------------------------------------- Home -----------------------------------------------*/
 /* --------------- Site title ---------------- */
 main .home-site-title{
-    background: url("C:/Users/HP/Desktop/Learn/ATT Project/img/titlebackground7.jpg");
+    background: url("./img/titlebackground7.jpg");
     background-size: cover;
     height: 110vh;
     display: flex;
